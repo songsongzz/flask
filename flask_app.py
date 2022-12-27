@@ -30,7 +30,7 @@ c.execute("CREATE TABLE IF NOT EXISTS git (no INTEGER PRIMARY KEY AUTOINCREMENT,
 c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('동화콘텐츠제공자', 1, '동화 콘텐츠를 제공하는 자', '2022-07-05')")
 c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('부산도서관', 2, '부산 도서관용 컨텐츠', '2022-07-05')")
 c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('대전도서관', 2, '대전 도서관용 컨텐츠', '2022-07-05')")
-c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('서울도서관', 2, '서울 도서관용 컨텐츠', '2022-07-05')")
+c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('서울 국립 어린이 청소년 도서관', 2, '국어청 컨텐츠', '2022-12-27')")
 
 c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('부산도서관 콘텐츠 개발자 그룹', 1, '부산도서관 콘텐츠 개발자 그룹', '2022-07-05')")
 c.execute("INSERT OR IGNORE INTO stroy_group(name, type, content, regdate) VALUES('대전도서관 콘텐츠 개발자 그룹', 1, '대전도서관 콘텐츠 개발자 그룹', '2022-07-05')")
